@@ -1,6 +1,5 @@
 -- Creating dimension tables with Primary keys:
 
-
 CREATE TABLE Customers_dim(
 Customer_ID VARCHAR(9) PRIMARY KEY, 
 Customer_Name TEXT NOT NULL,
@@ -271,5 +270,5 @@ ADD CONSTRAINT fk_City FOREIGN KEY (city) REFERENCES region_dim(city);
 SELECT * FROM salesdata_collated; 
 
 
---**Star Schema created successfully**-- 
+--**Star Schema created successfully**--   
 
